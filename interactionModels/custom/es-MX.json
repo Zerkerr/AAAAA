@@ -1,0 +1,884 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "modelos carros",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "carros",
+          "slots": [
+            {
+              "name": "marcas",
+              "type": "marcas"
+            }
+          ],
+          "samples": [
+            "caracteristicas de  {marcas}"
+          ]
+        },
+        {
+          "name": "color",
+          "slots": [
+            {
+              "name": "marcas",
+              "type": "marcas"
+            }
+          ],
+          "samples": [
+            "colore del {marcas}"
+          ]
+        },
+        {
+          "name": "tipos",
+          "slots": [
+            {
+              "name": "marcas",
+              "type": "marcas"
+            }
+          ],
+          "samples": [
+            "tipos de carros {marcas}"
+          ]
+        },
+        {
+          "name": "versiones",
+          "slots": [
+            {
+              "name": "marcas",
+              "type": "marcas"
+            }
+          ],
+          "samples": [
+            "versiones de {marcas}"
+          ]
+        },
+        {
+          "name": "informacion",
+          "slots": [
+            {
+              "name": "rap",
+              "type": "rap"
+            }
+          ],
+          "samples": [
+            "informacion de {rap}"
+          ]
+        },
+        {
+          "name": "musica",
+          "slots": [
+            {
+              "name": "rap",
+              "type": "rap"
+            }
+          ],
+          "samples": [
+            "musica de {rap}"
+          ]
+        },
+        {
+          "name": "albums",
+          "slots": [
+            {
+              "name": "rap",
+              "type": "rap"
+            }
+          ],
+          "samples": [
+            "cuantos albums tiene {rap}"
+          ]
+        },
+        {
+          "name": "letras",
+          "slots": [
+            {
+              "name": "rap",
+              "type": "rap"
+            }
+          ],
+          "samples": [
+            "letra de la cancion mas pegada de {rap}"
+          ]
+        },
+        {
+          "name": "malasletras",
+          "slots": [
+            {
+              "name": "rap",
+              "type": "rap"
+            }
+          ],
+          "samples": [
+            "letra de la cancion mas mala de {rap}"
+          ]
+        },
+        {
+          "name": "vendido",
+          "slots": [
+            {
+              "name": "marcas",
+              "type": "marcas"
+            }
+          ],
+          "samples": [
+            "coche mas vendido de {marcas}"
+          ]
+        },
+        {
+          "name": "menosvendido",
+          "slots": [
+            {
+              "name": "marcas",
+              "type": "marcas"
+            }
+          ],
+          "samples": [
+            "coche menos vendido de {marcas}"
+          ]
+        },
+        {
+          "name": "caracteristicas",
+          "slots": [
+            {
+              "name": "ryzen",
+              "type": "ryzen"
+            }
+          ],
+          "samples": [
+            "caracteristicas de {ryzen}"
+          ]
+        },
+        {
+          "name": "ventamayor",
+          "slots": [
+            {
+              "name": "ryzen",
+              "type": "ryzen"
+            }
+          ],
+          "samples": [
+            "mas vendido de {ryzen}"
+          ]
+        },
+        {
+          "name": "ventamenor",
+          "slots": [
+            {
+              "name": "ryzen",
+              "type": "ryzen"
+            }
+          ],
+          "samples": [
+            "menos vendido de {ryzen}"
+          ]
+        },
+        {
+          "name": "prigeneracion",
+          "slots": [
+            {
+              "name": "ryzen",
+              "type": "ryzen"
+            }
+          ],
+          "samples": [
+            "primera generacion de {ryzen}"
+          ]
+        },
+        {
+          "name": "ultimageneracion",
+          "slots": [
+            {
+              "name": "ryzen",
+              "type": "ryzen"
+            }
+          ],
+          "samples": []
+        },
+        {
+          "name": "totalvendidos",
+          "slots": [
+            {
+              "name": "ryzen",
+              "type": "ryzen"
+            }
+          ],
+          "samples": [
+            "total vendidos de {ryzen}"
+          ]
+        },
+        {
+          "name": "supra",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "supra informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "skyline",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "skyline informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "nsx",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "nsx informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "mustang",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "mustang informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "camaro",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "camaro informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "vocho",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "vocho informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "ranger",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "ranger informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "lobo",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "lobo informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "corrolla",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "corrolla informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "camry",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "camry informacion de {detalles} "
+          ]
+        },
+        {
+          "name": "civic",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "civic informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "accord",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "accord informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "crv",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "crv informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "hilux",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "hilux informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "frontier",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "frontier informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "avalon",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "avalon informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "lancer",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "lancer informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "eclipse",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "eclipse informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "aventador",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "aventador informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "bugatti",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "bugatti informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "avenger",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "avenger informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "charger",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "charger informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "challenger",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "challenger informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "kiddkeo",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "kiddkeo informacion {artistas}"
+          ]
+        },
+        {
+          "name": "aleman",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "aleman informacion {artistas}"
+          ]
+        },
+        {
+          "name": "geramx",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "geramx informacion {artistas}"
+          ]
+        },
+        {
+          "name": "eladiocarrion",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "eladiocarrion informacion {artistas}"
+          ]
+        },
+        {
+          "name": "bizzarap",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "bizzarap informacion {artistas}"
+          ]
+        },
+        {
+          "name": "zxmyr",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "zxmyr informacion {artistas}"
+          ]
+        },
+        {
+          "name": "badbunny",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "badbunny informacion {artistas}"
+          ]
+        },
+        {
+          "name": "dadyyanke",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "dadyyanke informacion {artistas}"
+          ]
+        },
+        {
+          "name": "planB",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "planB informacion {artistas}"
+          ]
+        },
+        {
+          "name": "carteldesanta",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "cartel de santa informacion {artistas}"
+          ]
+        },
+        {
+          "name": "sandromalandro",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "sandro malandro informacion {artistas}"
+          ]
+        },
+        {
+          "name": "santafe",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "santafe informacion {artistas}"
+          ]
+        },
+        {
+          "name": "relsb",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "relsb informacion {artistas}"
+          ]
+        },
+        {
+          "name": "munichb",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "munich informacion {artistas}"
+          ]
+        },
+        {
+          "name": "donomar",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "don omar informacion {artistas}"
+          ]
+        },
+        {
+          "name": "aldotrujillo",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "aldo trujillo informacion {artistas}"
+          ]
+        },
+        {
+          "name": "maxrc",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "max rc informacion {artistas}"
+          ]
+        },
+        {
+          "name": "toserone",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "toser one informacion {artistas}"
+          ]
+        },
+        {
+          "name": "ibarra",
+          "slots": [
+            {
+              "name": "artistas",
+              "type": "artistas"
+            }
+          ],
+          "samples": [
+            "ibarra informacion {artistas}"
+          ]
+        },
+        {
+          "name": "brz",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "brz informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "armada",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "armada informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "xterra",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "xterra informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "scort",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "scort informacion de {detalles}"
+          ]
+        },
+        {
+          "name": "chevy",
+          "slots": [
+            {
+              "name": "detalles",
+              "type": "detalles"
+            }
+          ],
+          "samples": [
+            "chevy informacion de {detalles}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "toyota"
+              }
+            },
+            {
+              "name": {
+                "value": "honda"
+              }
+            }
+          ],
+          "name": "marcas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "aleman"
+              }
+            },
+            {
+              "name": {
+                "value": "geramx"
+              }
+            }
+          ],
+          "name": "rap"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tarjetagrafica"
+              }
+            },
+            {
+              "name": {
+                "value": "procesador"
+              }
+            }
+          ],
+          "name": "ryzen"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "trasmision"
+              }
+            },
+            {
+              "name": {
+                "value": "motor"
+              }
+            }
+          ],
+          "name": "detalles"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "total de canciones"
+              }
+            },
+            {
+              "name": {
+                "value": "genero musical"
+              }
+            }
+          ],
+          "name": "artistas"
+        }
+      ]
+    }
+  },
+  "version": "51"
+}
